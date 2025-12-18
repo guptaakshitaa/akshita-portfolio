@@ -1161,6 +1161,7 @@ section:not(.hero) {
             <a href="#projects">Projects</a>
             <a href="#skills">Skills</a>
             <a href="#certifications">Certifications</a>
+            <a href="#blog">Blog</a>
             <a href="#lets-build" class="cta-link">Connect</a>
         </div>
     </div>
@@ -1252,23 +1253,6 @@ section:not(.hero) {
                     </div>
                     <a href="https://ecoretailai.vercel.app/" target="_blank" class="project-link">Visit →</a>
                 </div>
-
-                <!-- <div class="card">
-                    <h3 class="card-title">Mine Trace</h3>
-                    <p class="card-date">October 2024</p>
-                    <ul>
-                        <li>Developed backend services (Node.js, Express) for real-time carbon footprint calculations and ML-driven recommendations</li>
-                        <li>Built multilingual dashboards with Tailwind, Bootstrap, and JS, improving accessibility for non-English users</li>
-                    </ul>
-                    <div class="tech-tags">
-                        <span class="tech-tag">Node.js</span>
-                        <span class="tech-tag">Express.js</span>
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">ML</span>
-                        <span class="tech-tag">Tailwind CSS</span>
-                    </div>
-                    <a href="https://github.com/itsvinitlunia/Sparkathon_Team" target="_blank" class="project-link">View on GitHub →</a>
-                </div> -->
 
                 <div class="card">
                     <h3 class="card-title">Sakshatkar</h3>
@@ -1395,6 +1379,46 @@ section:not(.hero) {
         </section>
     </div>
 
+    <!-- Blog Section -->
+    <section id="blog">
+            <h2 class="section-title">My Blog & Writing</h2>
+            <div class="cards-grid">
+
+                <div class="card">
+                    <h3 class="card-title">AI Solutions for Emerging, Resource-Constrained Cities: The Quiet Work</h3>
+                    <!-- <p class="card-date">December 7, 2024</p> -->
+                    <p style="color: #d1d5db; margin-bottom: 1rem; line-height: 1.6;">
+                        While AI headlines focus on wealthy cities, meaningful deployments are emerging elsewhere. This article examines how practical, low-cost AI systems are quietly improving infrastructure, services, and resilience in resource-constrained cities across India, Africa, and Southeast Asia.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Artificial Intelligence</span>
+                        <span class="tech-tag">Climate Resilience</span>
+                        <span class="tech-tag">Urban Planning</span>
+                        <span class="tech-tag">Emerging Markets</span>
+                        <span class="tech-tag">Sustainable Development</span>
+                    </div>
+                    <a href="https://medium.com/@akshira/ai-solutions-for-emerging-resource-constrained-cities-the-quiet-revolution-were-not-talking-c49ab8b5b585" target="_blank" class="project-link">Read Article →</a>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">From Pilot to Policy: Why AI Projects Rarely Scale in Emerging Cities</h3>
+                    <!-- <p class="card-date">December 2024</p> -->
+                    <p style="color: #d1d5db; margin-bottom: 1rem; line-height: 1.6;">
+                        AI pilots are widespread across emerging cities, yet very few become permanent systems. This article examines the institutional, governance, and capacity constraints that prevent AI projects from scaling beyond pilot phases in resource-constrained urban environments.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Artificial Intelligence</span>
+                        <span class="tech-tag">Public Policy</span>
+                        <span class="tech-tag">Urban Governance</span>
+                        <span class="tech-tag">Smart Cities</span>
+                        <span class="tech-tag">Digital Transformation</span>
+                    </div>
+                    <a href="https://medium.com/@akshira/from-pilot-to-policy-why-ai-projects-rarely-scale-in-emerging-cities-79a3a664e764" target="_blank" class="project-link">Read Article →</a>
+                </div>
+
+            </div>
+    </section>
+
     <!-- Let's Build Section -->
     <section id="lets-build">
         <div class="lets-build-container">
@@ -1429,12 +1453,6 @@ section:not(.hero) {
                     <span class="small">Available for remote & hybrid roles</span>
                 </div>
             </div>
-
-            <!-- <div class="lb-social-links">
-                <a href="https://github.com/guptaakshitaa" target="_blank" title="GitHub">💻</a>
-                <a href="https://www.linkedin.com/in/akshita-gupta-67aa752ab/" target="_blank" title="LinkedIn">💼</a>
-                <a href="https://leetcode.com/u/hunhanny/" target="_blank" title="LeetCode">🧩</a>
-            </div> -->
         </div>
     </section>
 
@@ -1454,6 +1472,9 @@ section:not(.hero) {
                 </a>
                 <a href="https://leetcode.com/u/hunhanny/" target="_blank" class="social-link">
                     <i class="fas fa-code"></i>
+                </a>
+                <a href="https://medium.com/@akshira" target="_blank" class="social-link">
+                    <i class="fab fa-medium"></i>
                 </a>
             </div>
         </div>
@@ -1581,7 +1602,7 @@ section:not(.hero) {
 </script>
 <script>
     // Add flowers to all sections except hero
-    const sections = document.querySelectorAll('#experience, #projects, #skills, #certifications, #lets-build');
+    const sections = document.querySelectorAll('#experience, #projects, #skills, #certifications, #blog, #lets-build');
     
     sections.forEach(section => {
         const flowersContainer = document.createElement('div');
